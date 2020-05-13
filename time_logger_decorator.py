@@ -11,9 +11,9 @@ def time_logger(timeout=None, time_format="%c", cash=False):
 
     :param timeout: if decorated function had not finished working until timeout ended, the decorator would raise
                     an exception
-                    Alert if function works forever, thread will flow
+                    Alert if function works forever, thread will flow!
     :param time_format: time format
-    :param cash: if cash = True, input arguments will be saved!
+    :param cash: if cash = True, input arguments will be saved
     """
     
     def time_decorator(func_to_decorate):
