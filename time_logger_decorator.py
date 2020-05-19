@@ -9,9 +9,9 @@ def time_logger(timeout=None, time_format="%c", cash=False):
     """
     Allows calling decorator which measures function's execution time
 
-    :param timeout: if decorated function had not finished working until timeout ended, the decorator would raise
+    :param timeout: if decorated function does not finish work until timeout ended, the decorator will raise
                     an exception
-                    Alert if function works forever, thread will flow!
+                    Alert if function work is infinite, thread will flow!
     :param time_format: time format
     :param cash: if cash = True, input arguments will be saved
     """
